@@ -118,9 +118,10 @@ tr += td
 td.txt("1/8D")
 td.attrt(("class","dotted"))
 
-
+start = 40
+end = 260
 for n in range(40,260):
-    if n%10==0:
+    if (n > start) and (n%10==0):
         tr = elem("tr")
         table += tr
         tr.attrt(("class","headrow"))
