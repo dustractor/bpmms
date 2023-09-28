@@ -1,0 +1,3196 @@
+<html>
+	<head>
+		<title>BPM / Milliseconds Delay Chart</title>
+		<style>
+table {
+    border: #777 1px solid;
+}
+
+td {
+    margin: 3rem;
+    padding: 1rem;
+}
+
+tr {
+    background-color:#ccc;
+}
+.bpm {
+    font-weight:bold;
+}
+
+.dotted {
+    background-color:#ccc0c0;
+}
+.triplet {
+    background-color:#c0c0cc;
+}
+.headrow {
+    color:#999;
+}
+
+</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">40 bpm</td>
+				<td>3000.000</td>
+				<td>1500.000</td>
+				<td>750.000</td>
+				<td>375.000</td>
+				<td class="triplet">2000.000</td>
+				<td class="triplet">1000.000</td>
+				<td class="triplet">500.000</td>
+				<td class="dotted">4500.000</td>
+				<td class="dotted">2250.000</td>
+				<td class="dotted">1125.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">41 bpm</td>
+				<td>2926.829</td>
+				<td>1463.415</td>
+				<td>731.707</td>
+				<td>365.854</td>
+				<td class="triplet">1951.220</td>
+				<td class="triplet">975.610</td>
+				<td class="triplet">487.805</td>
+				<td class="dotted">4390.244</td>
+				<td class="dotted">2195.122</td>
+				<td class="dotted">1097.561</td>
+			</tr>
+			<tr>
+				<td class="bpm">42 bpm</td>
+				<td>2857.143</td>
+				<td>1428.571</td>
+				<td>714.286</td>
+				<td>357.143</td>
+				<td class="triplet">1904.762</td>
+				<td class="triplet">952.381</td>
+				<td class="triplet">476.190</td>
+				<td class="dotted">4285.714</td>
+				<td class="dotted">2142.857</td>
+				<td class="dotted">1071.429</td>
+			</tr>
+			<tr>
+				<td class="bpm">43 bpm</td>
+				<td>2790.698</td>
+				<td>1395.349</td>
+				<td>697.674</td>
+				<td>348.837</td>
+				<td class="triplet">1860.465</td>
+				<td class="triplet">930.233</td>
+				<td class="triplet">465.116</td>
+				<td class="dotted">4186.047</td>
+				<td class="dotted">2093.023</td>
+				<td class="dotted">1046.512</td>
+			</tr>
+			<tr>
+				<td class="bpm">44 bpm</td>
+				<td>2727.273</td>
+				<td>1363.636</td>
+				<td>681.818</td>
+				<td>340.909</td>
+				<td class="triplet">1818.182</td>
+				<td class="triplet">909.091</td>
+				<td class="triplet">454.545</td>
+				<td class="dotted">4090.909</td>
+				<td class="dotted">2045.455</td>
+				<td class="dotted">1022.727</td>
+			</tr>
+			<tr>
+				<td class="bpm">45 bpm</td>
+				<td>2666.667</td>
+				<td>1333.333</td>
+				<td>666.667</td>
+				<td>333.333</td>
+				<td class="triplet">1777.778</td>
+				<td class="triplet">888.889</td>
+				<td class="triplet">444.444</td>
+				<td class="dotted">4000.000</td>
+				<td class="dotted">2000.000</td>
+				<td class="dotted">1000.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">46 bpm</td>
+				<td>2608.696</td>
+				<td>1304.348</td>
+				<td>652.174</td>
+				<td>326.087</td>
+				<td class="triplet">1739.130</td>
+				<td class="triplet">869.565</td>
+				<td class="triplet">434.783</td>
+				<td class="dotted">3913.043</td>
+				<td class="dotted">1956.522</td>
+				<td class="dotted">978.261</td>
+			</tr>
+			<tr>
+				<td class="bpm">47 bpm</td>
+				<td>2553.191</td>
+				<td>1276.596</td>
+				<td>638.298</td>
+				<td>319.149</td>
+				<td class="triplet">1702.128</td>
+				<td class="triplet">851.064</td>
+				<td class="triplet">425.532</td>
+				<td class="dotted">3829.787</td>
+				<td class="dotted">1914.894</td>
+				<td class="dotted">957.447</td>
+			</tr>
+			<tr>
+				<td class="bpm">48 bpm</td>
+				<td>2500.000</td>
+				<td>1250.000</td>
+				<td>625.000</td>
+				<td>312.500</td>
+				<td class="triplet">1666.667</td>
+				<td class="triplet">833.333</td>
+				<td class="triplet">416.667</td>
+				<td class="dotted">3750.000</td>
+				<td class="dotted">1875.000</td>
+				<td class="dotted">937.500</td>
+			</tr>
+			<tr>
+				<td class="bpm">49 bpm</td>
+				<td>2448.980</td>
+				<td>1224.490</td>
+				<td>612.245</td>
+				<td>306.122</td>
+				<td class="triplet">1632.653</td>
+				<td class="triplet">816.327</td>
+				<td class="triplet">408.163</td>
+				<td class="dotted">3673.469</td>
+				<td class="dotted">1836.735</td>
+				<td class="dotted">918.367</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">50 bpm</td>
+				<td>2400.000</td>
+				<td>1200.000</td>
+				<td>600.000</td>
+				<td>300.000</td>
+				<td class="triplet">1600.000</td>
+				<td class="triplet">800.000</td>
+				<td class="triplet">400.000</td>
+				<td class="dotted">3600.000</td>
+				<td class="dotted">1800.000</td>
+				<td class="dotted">900.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">51 bpm</td>
+				<td>2352.941</td>
+				<td>1176.471</td>
+				<td>588.235</td>
+				<td>294.118</td>
+				<td class="triplet">1568.627</td>
+				<td class="triplet">784.314</td>
+				<td class="triplet">392.157</td>
+				<td class="dotted">3529.412</td>
+				<td class="dotted">1764.706</td>
+				<td class="dotted">882.353</td>
+			</tr>
+			<tr>
+				<td class="bpm">52 bpm</td>
+				<td>2307.692</td>
+				<td>1153.846</td>
+				<td>576.923</td>
+				<td>288.462</td>
+				<td class="triplet">1538.462</td>
+				<td class="triplet">769.231</td>
+				<td class="triplet">384.615</td>
+				<td class="dotted">3461.538</td>
+				<td class="dotted">1730.769</td>
+				<td class="dotted">865.385</td>
+			</tr>
+			<tr>
+				<td class="bpm">53 bpm</td>
+				<td>2264.151</td>
+				<td>1132.075</td>
+				<td>566.038</td>
+				<td>283.019</td>
+				<td class="triplet">1509.434</td>
+				<td class="triplet">754.717</td>
+				<td class="triplet">377.358</td>
+				<td class="dotted">3396.226</td>
+				<td class="dotted">1698.113</td>
+				<td class="dotted">849.057</td>
+			</tr>
+			<tr>
+				<td class="bpm">54 bpm</td>
+				<td>2222.222</td>
+				<td>1111.111</td>
+				<td>555.556</td>
+				<td>277.778</td>
+				<td class="triplet">1481.481</td>
+				<td class="triplet">740.741</td>
+				<td class="triplet">370.370</td>
+				<td class="dotted">3333.333</td>
+				<td class="dotted">1666.667</td>
+				<td class="dotted">833.333</td>
+			</tr>
+			<tr>
+				<td class="bpm">55 bpm</td>
+				<td>2181.818</td>
+				<td>1090.909</td>
+				<td>545.455</td>
+				<td>272.727</td>
+				<td class="triplet">1454.545</td>
+				<td class="triplet">727.273</td>
+				<td class="triplet">363.636</td>
+				<td class="dotted">3272.727</td>
+				<td class="dotted">1636.364</td>
+				<td class="dotted">818.182</td>
+			</tr>
+			<tr>
+				<td class="bpm">56 bpm</td>
+				<td>2142.857</td>
+				<td>1071.429</td>
+				<td>535.714</td>
+				<td>267.857</td>
+				<td class="triplet">1428.571</td>
+				<td class="triplet">714.286</td>
+				<td class="triplet">357.143</td>
+				<td class="dotted">3214.286</td>
+				<td class="dotted">1607.143</td>
+				<td class="dotted">803.571</td>
+			</tr>
+			<tr>
+				<td class="bpm">57 bpm</td>
+				<td>2105.263</td>
+				<td>1052.632</td>
+				<td>526.316</td>
+				<td>263.158</td>
+				<td class="triplet">1403.509</td>
+				<td class="triplet">701.754</td>
+				<td class="triplet">350.877</td>
+				<td class="dotted">3157.895</td>
+				<td class="dotted">1578.947</td>
+				<td class="dotted">789.474</td>
+			</tr>
+			<tr>
+				<td class="bpm">58 bpm</td>
+				<td>2068.966</td>
+				<td>1034.483</td>
+				<td>517.241</td>
+				<td>258.621</td>
+				<td class="triplet">1379.310</td>
+				<td class="triplet">689.655</td>
+				<td class="triplet">344.828</td>
+				<td class="dotted">3103.448</td>
+				<td class="dotted">1551.724</td>
+				<td class="dotted">775.862</td>
+			</tr>
+			<tr>
+				<td class="bpm">59 bpm</td>
+				<td>2033.898</td>
+				<td>1016.949</td>
+				<td>508.475</td>
+				<td>254.237</td>
+				<td class="triplet">1355.932</td>
+				<td class="triplet">677.966</td>
+				<td class="triplet">338.983</td>
+				<td class="dotted">3050.847</td>
+				<td class="dotted">1525.424</td>
+				<td class="dotted">762.712</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">60 bpm</td>
+				<td>2000.000</td>
+				<td>1000.000</td>
+				<td>500.000</td>
+				<td>250.000</td>
+				<td class="triplet">1333.333</td>
+				<td class="triplet">666.667</td>
+				<td class="triplet">333.333</td>
+				<td class="dotted">3000.000</td>
+				<td class="dotted">1500.000</td>
+				<td class="dotted">750.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">61 bpm</td>
+				<td>1967.213</td>
+				<td>983.607</td>
+				<td>491.803</td>
+				<td>245.902</td>
+				<td class="triplet">1311.475</td>
+				<td class="triplet">655.738</td>
+				<td class="triplet">327.869</td>
+				<td class="dotted">2950.820</td>
+				<td class="dotted">1475.410</td>
+				<td class="dotted">737.705</td>
+			</tr>
+			<tr>
+				<td class="bpm">62 bpm</td>
+				<td>1935.484</td>
+				<td>967.742</td>
+				<td>483.871</td>
+				<td>241.935</td>
+				<td class="triplet">1290.323</td>
+				<td class="triplet">645.161</td>
+				<td class="triplet">322.581</td>
+				<td class="dotted">2903.226</td>
+				<td class="dotted">1451.613</td>
+				<td class="dotted">725.806</td>
+			</tr>
+			<tr>
+				<td class="bpm">63 bpm</td>
+				<td>1904.762</td>
+				<td>952.381</td>
+				<td>476.190</td>
+				<td>238.095</td>
+				<td class="triplet">1269.841</td>
+				<td class="triplet">634.921</td>
+				<td class="triplet">317.460</td>
+				<td class="dotted">2857.143</td>
+				<td class="dotted">1428.571</td>
+				<td class="dotted">714.286</td>
+			</tr>
+			<tr>
+				<td class="bpm">64 bpm</td>
+				<td>1875.000</td>
+				<td>937.500</td>
+				<td>468.750</td>
+				<td>234.375</td>
+				<td class="triplet">1250.000</td>
+				<td class="triplet">625.000</td>
+				<td class="triplet">312.500</td>
+				<td class="dotted">2812.500</td>
+				<td class="dotted">1406.250</td>
+				<td class="dotted">703.125</td>
+			</tr>
+			<tr>
+				<td class="bpm">65 bpm</td>
+				<td>1846.154</td>
+				<td>923.077</td>
+				<td>461.538</td>
+				<td>230.769</td>
+				<td class="triplet">1230.769</td>
+				<td class="triplet">615.385</td>
+				<td class="triplet">307.692</td>
+				<td class="dotted">2769.231</td>
+				<td class="dotted">1384.615</td>
+				<td class="dotted">692.308</td>
+			</tr>
+			<tr>
+				<td class="bpm">66 bpm</td>
+				<td>1818.182</td>
+				<td>909.091</td>
+				<td>454.545</td>
+				<td>227.273</td>
+				<td class="triplet">1212.121</td>
+				<td class="triplet">606.061</td>
+				<td class="triplet">303.030</td>
+				<td class="dotted">2727.273</td>
+				<td class="dotted">1363.636</td>
+				<td class="dotted">681.818</td>
+			</tr>
+			<tr>
+				<td class="bpm">67 bpm</td>
+				<td>1791.045</td>
+				<td>895.522</td>
+				<td>447.761</td>
+				<td>223.881</td>
+				<td class="triplet">1194.030</td>
+				<td class="triplet">597.015</td>
+				<td class="triplet">298.507</td>
+				<td class="dotted">2686.567</td>
+				<td class="dotted">1343.284</td>
+				<td class="dotted">671.642</td>
+			</tr>
+			<tr>
+				<td class="bpm">68 bpm</td>
+				<td>1764.706</td>
+				<td>882.353</td>
+				<td>441.176</td>
+				<td>220.588</td>
+				<td class="triplet">1176.471</td>
+				<td class="triplet">588.235</td>
+				<td class="triplet">294.118</td>
+				<td class="dotted">2647.059</td>
+				<td class="dotted">1323.529</td>
+				<td class="dotted">661.765</td>
+			</tr>
+			<tr>
+				<td class="bpm">69 bpm</td>
+				<td>1739.130</td>
+				<td>869.565</td>
+				<td>434.783</td>
+				<td>217.391</td>
+				<td class="triplet">1159.420</td>
+				<td class="triplet">579.710</td>
+				<td class="triplet">289.855</td>
+				<td class="dotted">2608.696</td>
+				<td class="dotted">1304.348</td>
+				<td class="dotted">652.174</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">70 bpm</td>
+				<td>1714.286</td>
+				<td>857.143</td>
+				<td>428.571</td>
+				<td>214.286</td>
+				<td class="triplet">1142.857</td>
+				<td class="triplet">571.429</td>
+				<td class="triplet">285.714</td>
+				<td class="dotted">2571.429</td>
+				<td class="dotted">1285.714</td>
+				<td class="dotted">642.857</td>
+			</tr>
+			<tr>
+				<td class="bpm">71 bpm</td>
+				<td>1690.141</td>
+				<td>845.070</td>
+				<td>422.535</td>
+				<td>211.268</td>
+				<td class="triplet">1126.761</td>
+				<td class="triplet">563.380</td>
+				<td class="triplet">281.690</td>
+				<td class="dotted">2535.211</td>
+				<td class="dotted">1267.606</td>
+				<td class="dotted">633.803</td>
+			</tr>
+			<tr>
+				<td class="bpm">72 bpm</td>
+				<td>1666.667</td>
+				<td>833.333</td>
+				<td>416.667</td>
+				<td>208.333</td>
+				<td class="triplet">1111.111</td>
+				<td class="triplet">555.556</td>
+				<td class="triplet">277.778</td>
+				<td class="dotted">2500.000</td>
+				<td class="dotted">1250.000</td>
+				<td class="dotted">625.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">73 bpm</td>
+				<td>1643.836</td>
+				<td>821.918</td>
+				<td>410.959</td>
+				<td>205.479</td>
+				<td class="triplet">1095.890</td>
+				<td class="triplet">547.945</td>
+				<td class="triplet">273.973</td>
+				<td class="dotted">2465.753</td>
+				<td class="dotted">1232.877</td>
+				<td class="dotted">616.438</td>
+			</tr>
+			<tr>
+				<td class="bpm">74 bpm</td>
+				<td>1621.622</td>
+				<td>810.811</td>
+				<td>405.405</td>
+				<td>202.703</td>
+				<td class="triplet">1081.081</td>
+				<td class="triplet">540.541</td>
+				<td class="triplet">270.270</td>
+				<td class="dotted">2432.432</td>
+				<td class="dotted">1216.216</td>
+				<td class="dotted">608.108</td>
+			</tr>
+			<tr>
+				<td class="bpm">75 bpm</td>
+				<td>1600.000</td>
+				<td>800.000</td>
+				<td>400.000</td>
+				<td>200.000</td>
+				<td class="triplet">1066.667</td>
+				<td class="triplet">533.333</td>
+				<td class="triplet">266.667</td>
+				<td class="dotted">2400.000</td>
+				<td class="dotted">1200.000</td>
+				<td class="dotted">600.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">76 bpm</td>
+				<td>1578.947</td>
+				<td>789.474</td>
+				<td>394.737</td>
+				<td>197.368</td>
+				<td class="triplet">1052.632</td>
+				<td class="triplet">526.316</td>
+				<td class="triplet">263.158</td>
+				<td class="dotted">2368.421</td>
+				<td class="dotted">1184.211</td>
+				<td class="dotted">592.105</td>
+			</tr>
+			<tr>
+				<td class="bpm">77 bpm</td>
+				<td>1558.442</td>
+				<td>779.221</td>
+				<td>389.610</td>
+				<td>194.805</td>
+				<td class="triplet">1038.961</td>
+				<td class="triplet">519.481</td>
+				<td class="triplet">259.740</td>
+				<td class="dotted">2337.662</td>
+				<td class="dotted">1168.831</td>
+				<td class="dotted">584.416</td>
+			</tr>
+			<tr>
+				<td class="bpm">78 bpm</td>
+				<td>1538.462</td>
+				<td>769.231</td>
+				<td>384.615</td>
+				<td>192.308</td>
+				<td class="triplet">1025.641</td>
+				<td class="triplet">512.821</td>
+				<td class="triplet">256.410</td>
+				<td class="dotted">2307.692</td>
+				<td class="dotted">1153.846</td>
+				<td class="dotted">576.923</td>
+			</tr>
+			<tr>
+				<td class="bpm">79 bpm</td>
+				<td>1518.987</td>
+				<td>759.494</td>
+				<td>379.747</td>
+				<td>189.873</td>
+				<td class="triplet">1012.658</td>
+				<td class="triplet">506.329</td>
+				<td class="triplet">253.165</td>
+				<td class="dotted">2278.481</td>
+				<td class="dotted">1139.241</td>
+				<td class="dotted">569.620</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">80 bpm</td>
+				<td>1500.000</td>
+				<td>750.000</td>
+				<td>375.000</td>
+				<td>187.500</td>
+				<td class="triplet">1000.000</td>
+				<td class="triplet">500.000</td>
+				<td class="triplet">250.000</td>
+				<td class="dotted">2250.000</td>
+				<td class="dotted">1125.000</td>
+				<td class="dotted">562.500</td>
+			</tr>
+			<tr>
+				<td class="bpm">81 bpm</td>
+				<td>1481.481</td>
+				<td>740.741</td>
+				<td>370.370</td>
+				<td>185.185</td>
+				<td class="triplet">987.654</td>
+				<td class="triplet">493.827</td>
+				<td class="triplet">246.914</td>
+				<td class="dotted">2222.222</td>
+				<td class="dotted">1111.111</td>
+				<td class="dotted">555.556</td>
+			</tr>
+			<tr>
+				<td class="bpm">82 bpm</td>
+				<td>1463.415</td>
+				<td>731.707</td>
+				<td>365.854</td>
+				<td>182.927</td>
+				<td class="triplet">975.610</td>
+				<td class="triplet">487.805</td>
+				<td class="triplet">243.902</td>
+				<td class="dotted">2195.122</td>
+				<td class="dotted">1097.561</td>
+				<td class="dotted">548.780</td>
+			</tr>
+			<tr>
+				<td class="bpm">83 bpm</td>
+				<td>1445.783</td>
+				<td>722.892</td>
+				<td>361.446</td>
+				<td>180.723</td>
+				<td class="triplet">963.855</td>
+				<td class="triplet">481.928</td>
+				<td class="triplet">240.964</td>
+				<td class="dotted">2168.675</td>
+				<td class="dotted">1084.337</td>
+				<td class="dotted">542.169</td>
+			</tr>
+			<tr>
+				<td class="bpm">84 bpm</td>
+				<td>1428.571</td>
+				<td>714.286</td>
+				<td>357.143</td>
+				<td>178.571</td>
+				<td class="triplet">952.381</td>
+				<td class="triplet">476.190</td>
+				<td class="triplet">238.095</td>
+				<td class="dotted">2142.857</td>
+				<td class="dotted">1071.429</td>
+				<td class="dotted">535.714</td>
+			</tr>
+			<tr>
+				<td class="bpm">85 bpm</td>
+				<td>1411.765</td>
+				<td>705.882</td>
+				<td>352.941</td>
+				<td>176.471</td>
+				<td class="triplet">941.176</td>
+				<td class="triplet">470.588</td>
+				<td class="triplet">235.294</td>
+				<td class="dotted">2117.647</td>
+				<td class="dotted">1058.824</td>
+				<td class="dotted">529.412</td>
+			</tr>
+			<tr>
+				<td class="bpm">86 bpm</td>
+				<td>1395.349</td>
+				<td>697.674</td>
+				<td>348.837</td>
+				<td>174.419</td>
+				<td class="triplet">930.233</td>
+				<td class="triplet">465.116</td>
+				<td class="triplet">232.558</td>
+				<td class="dotted">2093.023</td>
+				<td class="dotted">1046.512</td>
+				<td class="dotted">523.256</td>
+			</tr>
+			<tr>
+				<td class="bpm">87 bpm</td>
+				<td>1379.310</td>
+				<td>689.655</td>
+				<td>344.828</td>
+				<td>172.414</td>
+				<td class="triplet">919.540</td>
+				<td class="triplet">459.770</td>
+				<td class="triplet">229.885</td>
+				<td class="dotted">2068.966</td>
+				<td class="dotted">1034.483</td>
+				<td class="dotted">517.241</td>
+			</tr>
+			<tr>
+				<td class="bpm">88 bpm</td>
+				<td>1363.636</td>
+				<td>681.818</td>
+				<td>340.909</td>
+				<td>170.455</td>
+				<td class="triplet">909.091</td>
+				<td class="triplet">454.545</td>
+				<td class="triplet">227.273</td>
+				<td class="dotted">2045.455</td>
+				<td class="dotted">1022.727</td>
+				<td class="dotted">511.364</td>
+			</tr>
+			<tr>
+				<td class="bpm">89 bpm</td>
+				<td>1348.315</td>
+				<td>674.157</td>
+				<td>337.079</td>
+				<td>168.539</td>
+				<td class="triplet">898.876</td>
+				<td class="triplet">449.438</td>
+				<td class="triplet">224.719</td>
+				<td class="dotted">2022.472</td>
+				<td class="dotted">1011.236</td>
+				<td class="dotted">505.618</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">90 bpm</td>
+				<td>1333.333</td>
+				<td>666.667</td>
+				<td>333.333</td>
+				<td>166.667</td>
+				<td class="triplet">888.889</td>
+				<td class="triplet">444.444</td>
+				<td class="triplet">222.222</td>
+				<td class="dotted">2000.000</td>
+				<td class="dotted">1000.000</td>
+				<td class="dotted">500.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">91 bpm</td>
+				<td>1318.681</td>
+				<td>659.341</td>
+				<td>329.670</td>
+				<td>164.835</td>
+				<td class="triplet">879.121</td>
+				<td class="triplet">439.560</td>
+				<td class="triplet">219.780</td>
+				<td class="dotted">1978.022</td>
+				<td class="dotted">989.011</td>
+				<td class="dotted">494.505</td>
+			</tr>
+			<tr>
+				<td class="bpm">92 bpm</td>
+				<td>1304.348</td>
+				<td>652.174</td>
+				<td>326.087</td>
+				<td>163.043</td>
+				<td class="triplet">869.565</td>
+				<td class="triplet">434.783</td>
+				<td class="triplet">217.391</td>
+				<td class="dotted">1956.522</td>
+				<td class="dotted">978.261</td>
+				<td class="dotted">489.130</td>
+			</tr>
+			<tr>
+				<td class="bpm">93 bpm</td>
+				<td>1290.323</td>
+				<td>645.161</td>
+				<td>322.581</td>
+				<td>161.290</td>
+				<td class="triplet">860.215</td>
+				<td class="triplet">430.108</td>
+				<td class="triplet">215.054</td>
+				<td class="dotted">1935.484</td>
+				<td class="dotted">967.742</td>
+				<td class="dotted">483.871</td>
+			</tr>
+			<tr>
+				<td class="bpm">94 bpm</td>
+				<td>1276.596</td>
+				<td>638.298</td>
+				<td>319.149</td>
+				<td>159.574</td>
+				<td class="triplet">851.064</td>
+				<td class="triplet">425.532</td>
+				<td class="triplet">212.766</td>
+				<td class="dotted">1914.894</td>
+				<td class="dotted">957.447</td>
+				<td class="dotted">478.723</td>
+			</tr>
+			<tr>
+				<td class="bpm">95 bpm</td>
+				<td>1263.158</td>
+				<td>631.579</td>
+				<td>315.789</td>
+				<td>157.895</td>
+				<td class="triplet">842.105</td>
+				<td class="triplet">421.053</td>
+				<td class="triplet">210.526</td>
+				<td class="dotted">1894.737</td>
+				<td class="dotted">947.368</td>
+				<td class="dotted">473.684</td>
+			</tr>
+			<tr>
+				<td class="bpm">96 bpm</td>
+				<td>1250.000</td>
+				<td>625.000</td>
+				<td>312.500</td>
+				<td>156.250</td>
+				<td class="triplet">833.333</td>
+				<td class="triplet">416.667</td>
+				<td class="triplet">208.333</td>
+				<td class="dotted">1875.000</td>
+				<td class="dotted">937.500</td>
+				<td class="dotted">468.750</td>
+			</tr>
+			<tr>
+				<td class="bpm">97 bpm</td>
+				<td>1237.113</td>
+				<td>618.557</td>
+				<td>309.278</td>
+				<td>154.639</td>
+				<td class="triplet">824.742</td>
+				<td class="triplet">412.371</td>
+				<td class="triplet">206.186</td>
+				<td class="dotted">1855.670</td>
+				<td class="dotted">927.835</td>
+				<td class="dotted">463.918</td>
+			</tr>
+			<tr>
+				<td class="bpm">98 bpm</td>
+				<td>1224.490</td>
+				<td>612.245</td>
+				<td>306.122</td>
+				<td>153.061</td>
+				<td class="triplet">816.327</td>
+				<td class="triplet">408.163</td>
+				<td class="triplet">204.082</td>
+				<td class="dotted">1836.735</td>
+				<td class="dotted">918.367</td>
+				<td class="dotted">459.184</td>
+			</tr>
+			<tr>
+				<td class="bpm">99 bpm</td>
+				<td>1212.121</td>
+				<td>606.061</td>
+				<td>303.030</td>
+				<td>151.515</td>
+				<td class="triplet">808.081</td>
+				<td class="triplet">404.040</td>
+				<td class="triplet">202.020</td>
+				<td class="dotted">1818.182</td>
+				<td class="dotted">909.091</td>
+				<td class="dotted">454.545</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">100 bpm</td>
+				<td>1200.000</td>
+				<td>600.000</td>
+				<td>300.000</td>
+				<td>150.000</td>
+				<td class="triplet">800.000</td>
+				<td class="triplet">400.000</td>
+				<td class="triplet">200.000</td>
+				<td class="dotted">1800.000</td>
+				<td class="dotted">900.000</td>
+				<td class="dotted">450.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">101 bpm</td>
+				<td>1188.119</td>
+				<td>594.059</td>
+				<td>297.030</td>
+				<td>148.515</td>
+				<td class="triplet">792.079</td>
+				<td class="triplet">396.040</td>
+				<td class="triplet">198.020</td>
+				<td class="dotted">1782.178</td>
+				<td class="dotted">891.089</td>
+				<td class="dotted">445.545</td>
+			</tr>
+			<tr>
+				<td class="bpm">102 bpm</td>
+				<td>1176.471</td>
+				<td>588.235</td>
+				<td>294.118</td>
+				<td>147.059</td>
+				<td class="triplet">784.314</td>
+				<td class="triplet">392.157</td>
+				<td class="triplet">196.078</td>
+				<td class="dotted">1764.706</td>
+				<td class="dotted">882.353</td>
+				<td class="dotted">441.176</td>
+			</tr>
+			<tr>
+				<td class="bpm">103 bpm</td>
+				<td>1165.049</td>
+				<td>582.524</td>
+				<td>291.262</td>
+				<td>145.631</td>
+				<td class="triplet">776.699</td>
+				<td class="triplet">388.350</td>
+				<td class="triplet">194.175</td>
+				<td class="dotted">1747.573</td>
+				<td class="dotted">873.786</td>
+				<td class="dotted">436.893</td>
+			</tr>
+			<tr>
+				<td class="bpm">104 bpm</td>
+				<td>1153.846</td>
+				<td>576.923</td>
+				<td>288.462</td>
+				<td>144.231</td>
+				<td class="triplet">769.231</td>
+				<td class="triplet">384.615</td>
+				<td class="triplet">192.308</td>
+				<td class="dotted">1730.769</td>
+				<td class="dotted">865.385</td>
+				<td class="dotted">432.692</td>
+			</tr>
+			<tr>
+				<td class="bpm">105 bpm</td>
+				<td>1142.857</td>
+				<td>571.429</td>
+				<td>285.714</td>
+				<td>142.857</td>
+				<td class="triplet">761.905</td>
+				<td class="triplet">380.952</td>
+				<td class="triplet">190.476</td>
+				<td class="dotted">1714.286</td>
+				<td class="dotted">857.143</td>
+				<td class="dotted">428.571</td>
+			</tr>
+			<tr>
+				<td class="bpm">106 bpm</td>
+				<td>1132.075</td>
+				<td>566.038</td>
+				<td>283.019</td>
+				<td>141.509</td>
+				<td class="triplet">754.717</td>
+				<td class="triplet">377.358</td>
+				<td class="triplet">188.679</td>
+				<td class="dotted">1698.113</td>
+				<td class="dotted">849.057</td>
+				<td class="dotted">424.528</td>
+			</tr>
+			<tr>
+				<td class="bpm">107 bpm</td>
+				<td>1121.495</td>
+				<td>560.748</td>
+				<td>280.374</td>
+				<td>140.187</td>
+				<td class="triplet">747.664</td>
+				<td class="triplet">373.832</td>
+				<td class="triplet">186.916</td>
+				<td class="dotted">1682.243</td>
+				<td class="dotted">841.121</td>
+				<td class="dotted">420.561</td>
+			</tr>
+			<tr>
+				<td class="bpm">108 bpm</td>
+				<td>1111.111</td>
+				<td>555.556</td>
+				<td>277.778</td>
+				<td>138.889</td>
+				<td class="triplet">740.741</td>
+				<td class="triplet">370.370</td>
+				<td class="triplet">185.185</td>
+				<td class="dotted">1666.667</td>
+				<td class="dotted">833.333</td>
+				<td class="dotted">416.667</td>
+			</tr>
+			<tr>
+				<td class="bpm">109 bpm</td>
+				<td>1100.917</td>
+				<td>550.459</td>
+				<td>275.229</td>
+				<td>137.615</td>
+				<td class="triplet">733.945</td>
+				<td class="triplet">366.972</td>
+				<td class="triplet">183.486</td>
+				<td class="dotted">1651.376</td>
+				<td class="dotted">825.688</td>
+				<td class="dotted">412.844</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">110 bpm</td>
+				<td>1090.909</td>
+				<td>545.455</td>
+				<td>272.727</td>
+				<td>136.364</td>
+				<td class="triplet">727.273</td>
+				<td class="triplet">363.636</td>
+				<td class="triplet">181.818</td>
+				<td class="dotted">1636.364</td>
+				<td class="dotted">818.182</td>
+				<td class="dotted">409.091</td>
+			</tr>
+			<tr>
+				<td class="bpm">111 bpm</td>
+				<td>1081.081</td>
+				<td>540.541</td>
+				<td>270.270</td>
+				<td>135.135</td>
+				<td class="triplet">720.721</td>
+				<td class="triplet">360.360</td>
+				<td class="triplet">180.180</td>
+				<td class="dotted">1621.622</td>
+				<td class="dotted">810.811</td>
+				<td class="dotted">405.405</td>
+			</tr>
+			<tr>
+				<td class="bpm">112 bpm</td>
+				<td>1071.429</td>
+				<td>535.714</td>
+				<td>267.857</td>
+				<td>133.929</td>
+				<td class="triplet">714.286</td>
+				<td class="triplet">357.143</td>
+				<td class="triplet">178.571</td>
+				<td class="dotted">1607.143</td>
+				<td class="dotted">803.571</td>
+				<td class="dotted">401.786</td>
+			</tr>
+			<tr>
+				<td class="bpm">113 bpm</td>
+				<td>1061.947</td>
+				<td>530.973</td>
+				<td>265.487</td>
+				<td>132.743</td>
+				<td class="triplet">707.965</td>
+				<td class="triplet">353.982</td>
+				<td class="triplet">176.991</td>
+				<td class="dotted">1592.920</td>
+				<td class="dotted">796.460</td>
+				<td class="dotted">398.230</td>
+			</tr>
+			<tr>
+				<td class="bpm">114 bpm</td>
+				<td>1052.632</td>
+				<td>526.316</td>
+				<td>263.158</td>
+				<td>131.579</td>
+				<td class="triplet">701.754</td>
+				<td class="triplet">350.877</td>
+				<td class="triplet">175.439</td>
+				<td class="dotted">1578.947</td>
+				<td class="dotted">789.474</td>
+				<td class="dotted">394.737</td>
+			</tr>
+			<tr>
+				<td class="bpm">115 bpm</td>
+				<td>1043.478</td>
+				<td>521.739</td>
+				<td>260.870</td>
+				<td>130.435</td>
+				<td class="triplet">695.652</td>
+				<td class="triplet">347.826</td>
+				<td class="triplet">173.913</td>
+				<td class="dotted">1565.217</td>
+				<td class="dotted">782.609</td>
+				<td class="dotted">391.304</td>
+			</tr>
+			<tr>
+				<td class="bpm">116 bpm</td>
+				<td>1034.483</td>
+				<td>517.241</td>
+				<td>258.621</td>
+				<td>129.310</td>
+				<td class="triplet">689.655</td>
+				<td class="triplet">344.828</td>
+				<td class="triplet">172.414</td>
+				<td class="dotted">1551.724</td>
+				<td class="dotted">775.862</td>
+				<td class="dotted">387.931</td>
+			</tr>
+			<tr>
+				<td class="bpm">117 bpm</td>
+				<td>1025.641</td>
+				<td>512.821</td>
+				<td>256.410</td>
+				<td>128.205</td>
+				<td class="triplet">683.761</td>
+				<td class="triplet">341.880</td>
+				<td class="triplet">170.940</td>
+				<td class="dotted">1538.462</td>
+				<td class="dotted">769.231</td>
+				<td class="dotted">384.615</td>
+			</tr>
+			<tr>
+				<td class="bpm">118 bpm</td>
+				<td>1016.949</td>
+				<td>508.475</td>
+				<td>254.237</td>
+				<td>127.119</td>
+				<td class="triplet">677.966</td>
+				<td class="triplet">338.983</td>
+				<td class="triplet">169.492</td>
+				<td class="dotted">1525.424</td>
+				<td class="dotted">762.712</td>
+				<td class="dotted">381.356</td>
+			</tr>
+			<tr>
+				<td class="bpm">119 bpm</td>
+				<td>1008.403</td>
+				<td>504.202</td>
+				<td>252.101</td>
+				<td>126.050</td>
+				<td class="triplet">672.269</td>
+				<td class="triplet">336.134</td>
+				<td class="triplet">168.067</td>
+				<td class="dotted">1512.605</td>
+				<td class="dotted">756.303</td>
+				<td class="dotted">378.151</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">120 bpm</td>
+				<td>1000.000</td>
+				<td>500.000</td>
+				<td>250.000</td>
+				<td>125.000</td>
+				<td class="triplet">666.667</td>
+				<td class="triplet">333.333</td>
+				<td class="triplet">166.667</td>
+				<td class="dotted">1500.000</td>
+				<td class="dotted">750.000</td>
+				<td class="dotted">375.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">121 bpm</td>
+				<td>991.736</td>
+				<td>495.868</td>
+				<td>247.934</td>
+				<td>123.967</td>
+				<td class="triplet">661.157</td>
+				<td class="triplet">330.579</td>
+				<td class="triplet">165.289</td>
+				<td class="dotted">1487.603</td>
+				<td class="dotted">743.802</td>
+				<td class="dotted">371.901</td>
+			</tr>
+			<tr>
+				<td class="bpm">122 bpm</td>
+				<td>983.607</td>
+				<td>491.803</td>
+				<td>245.902</td>
+				<td>122.951</td>
+				<td class="triplet">655.738</td>
+				<td class="triplet">327.869</td>
+				<td class="triplet">163.934</td>
+				<td class="dotted">1475.410</td>
+				<td class="dotted">737.705</td>
+				<td class="dotted">368.852</td>
+			</tr>
+			<tr>
+				<td class="bpm">123 bpm</td>
+				<td>975.610</td>
+				<td>487.805</td>
+				<td>243.902</td>
+				<td>121.951</td>
+				<td class="triplet">650.407</td>
+				<td class="triplet">325.203</td>
+				<td class="triplet">162.602</td>
+				<td class="dotted">1463.415</td>
+				<td class="dotted">731.707</td>
+				<td class="dotted">365.854</td>
+			</tr>
+			<tr>
+				<td class="bpm">124 bpm</td>
+				<td>967.742</td>
+				<td>483.871</td>
+				<td>241.935</td>
+				<td>120.968</td>
+				<td class="triplet">645.161</td>
+				<td class="triplet">322.581</td>
+				<td class="triplet">161.290</td>
+				<td class="dotted">1451.613</td>
+				<td class="dotted">725.806</td>
+				<td class="dotted">362.903</td>
+			</tr>
+			<tr>
+				<td class="bpm">125 bpm</td>
+				<td>960.000</td>
+				<td>480.000</td>
+				<td>240.000</td>
+				<td>120.000</td>
+				<td class="triplet">640.000</td>
+				<td class="triplet">320.000</td>
+				<td class="triplet">160.000</td>
+				<td class="dotted">1440.000</td>
+				<td class="dotted">720.000</td>
+				<td class="dotted">360.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">126 bpm</td>
+				<td>952.381</td>
+				<td>476.190</td>
+				<td>238.095</td>
+				<td>119.048</td>
+				<td class="triplet">634.921</td>
+				<td class="triplet">317.460</td>
+				<td class="triplet">158.730</td>
+				<td class="dotted">1428.571</td>
+				<td class="dotted">714.286</td>
+				<td class="dotted">357.143</td>
+			</tr>
+			<tr>
+				<td class="bpm">127 bpm</td>
+				<td>944.882</td>
+				<td>472.441</td>
+				<td>236.220</td>
+				<td>118.110</td>
+				<td class="triplet">629.921</td>
+				<td class="triplet">314.961</td>
+				<td class="triplet">157.480</td>
+				<td class="dotted">1417.323</td>
+				<td class="dotted">708.661</td>
+				<td class="dotted">354.331</td>
+			</tr>
+			<tr>
+				<td class="bpm">128 bpm</td>
+				<td>937.500</td>
+				<td>468.750</td>
+				<td>234.375</td>
+				<td>117.188</td>
+				<td class="triplet">625.000</td>
+				<td class="triplet">312.500</td>
+				<td class="triplet">156.250</td>
+				<td class="dotted">1406.250</td>
+				<td class="dotted">703.125</td>
+				<td class="dotted">351.562</td>
+			</tr>
+			<tr>
+				<td class="bpm">129 bpm</td>
+				<td>930.233</td>
+				<td>465.116</td>
+				<td>232.558</td>
+				<td>116.279</td>
+				<td class="triplet">620.155</td>
+				<td class="triplet">310.078</td>
+				<td class="triplet">155.039</td>
+				<td class="dotted">1395.349</td>
+				<td class="dotted">697.674</td>
+				<td class="dotted">348.837</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">130 bpm</td>
+				<td>923.077</td>
+				<td>461.538</td>
+				<td>230.769</td>
+				<td>115.385</td>
+				<td class="triplet">615.385</td>
+				<td class="triplet">307.692</td>
+				<td class="triplet">153.846</td>
+				<td class="dotted">1384.615</td>
+				<td class="dotted">692.308</td>
+				<td class="dotted">346.154</td>
+			</tr>
+			<tr>
+				<td class="bpm">131 bpm</td>
+				<td>916.031</td>
+				<td>458.015</td>
+				<td>229.008</td>
+				<td>114.504</td>
+				<td class="triplet">610.687</td>
+				<td class="triplet">305.344</td>
+				<td class="triplet">152.672</td>
+				<td class="dotted">1374.046</td>
+				<td class="dotted">687.023</td>
+				<td class="dotted">343.511</td>
+			</tr>
+			<tr>
+				<td class="bpm">132 bpm</td>
+				<td>909.091</td>
+				<td>454.545</td>
+				<td>227.273</td>
+				<td>113.636</td>
+				<td class="triplet">606.061</td>
+				<td class="triplet">303.030</td>
+				<td class="triplet">151.515</td>
+				<td class="dotted">1363.636</td>
+				<td class="dotted">681.818</td>
+				<td class="dotted">340.909</td>
+			</tr>
+			<tr>
+				<td class="bpm">133 bpm</td>
+				<td>902.256</td>
+				<td>451.128</td>
+				<td>225.564</td>
+				<td>112.782</td>
+				<td class="triplet">601.504</td>
+				<td class="triplet">300.752</td>
+				<td class="triplet">150.376</td>
+				<td class="dotted">1353.383</td>
+				<td class="dotted">676.692</td>
+				<td class="dotted">338.346</td>
+			</tr>
+			<tr>
+				<td class="bpm">134 bpm</td>
+				<td>895.522</td>
+				<td>447.761</td>
+				<td>223.881</td>
+				<td>111.940</td>
+				<td class="triplet">597.015</td>
+				<td class="triplet">298.507</td>
+				<td class="triplet">149.254</td>
+				<td class="dotted">1343.284</td>
+				<td class="dotted">671.642</td>
+				<td class="dotted">335.821</td>
+			</tr>
+			<tr>
+				<td class="bpm">135 bpm</td>
+				<td>888.889</td>
+				<td>444.444</td>
+				<td>222.222</td>
+				<td>111.111</td>
+				<td class="triplet">592.593</td>
+				<td class="triplet">296.296</td>
+				<td class="triplet">148.148</td>
+				<td class="dotted">1333.333</td>
+				<td class="dotted">666.667</td>
+				<td class="dotted">333.333</td>
+			</tr>
+			<tr>
+				<td class="bpm">136 bpm</td>
+				<td>882.353</td>
+				<td>441.176</td>
+				<td>220.588</td>
+				<td>110.294</td>
+				<td class="triplet">588.235</td>
+				<td class="triplet">294.118</td>
+				<td class="triplet">147.059</td>
+				<td class="dotted">1323.529</td>
+				<td class="dotted">661.765</td>
+				<td class="dotted">330.882</td>
+			</tr>
+			<tr>
+				<td class="bpm">137 bpm</td>
+				<td>875.912</td>
+				<td>437.956</td>
+				<td>218.978</td>
+				<td>109.489</td>
+				<td class="triplet">583.942</td>
+				<td class="triplet">291.971</td>
+				<td class="triplet">145.985</td>
+				<td class="dotted">1313.869</td>
+				<td class="dotted">656.934</td>
+				<td class="dotted">328.467</td>
+			</tr>
+			<tr>
+				<td class="bpm">138 bpm</td>
+				<td>869.565</td>
+				<td>434.783</td>
+				<td>217.391</td>
+				<td>108.696</td>
+				<td class="triplet">579.710</td>
+				<td class="triplet">289.855</td>
+				<td class="triplet">144.928</td>
+				<td class="dotted">1304.348</td>
+				<td class="dotted">652.174</td>
+				<td class="dotted">326.087</td>
+			</tr>
+			<tr>
+				<td class="bpm">139 bpm</td>
+				<td>863.309</td>
+				<td>431.655</td>
+				<td>215.827</td>
+				<td>107.914</td>
+				<td class="triplet">575.540</td>
+				<td class="triplet">287.770</td>
+				<td class="triplet">143.885</td>
+				<td class="dotted">1294.964</td>
+				<td class="dotted">647.482</td>
+				<td class="dotted">323.741</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">140 bpm</td>
+				<td>857.143</td>
+				<td>428.571</td>
+				<td>214.286</td>
+				<td>107.143</td>
+				<td class="triplet">571.429</td>
+				<td class="triplet">285.714</td>
+				<td class="triplet">142.857</td>
+				<td class="dotted">1285.714</td>
+				<td class="dotted">642.857</td>
+				<td class="dotted">321.429</td>
+			</tr>
+			<tr>
+				<td class="bpm">141 bpm</td>
+				<td>851.064</td>
+				<td>425.532</td>
+				<td>212.766</td>
+				<td>106.383</td>
+				<td class="triplet">567.376</td>
+				<td class="triplet">283.688</td>
+				<td class="triplet">141.844</td>
+				<td class="dotted">1276.596</td>
+				<td class="dotted">638.298</td>
+				<td class="dotted">319.149</td>
+			</tr>
+			<tr>
+				<td class="bpm">142 bpm</td>
+				<td>845.070</td>
+				<td>422.535</td>
+				<td>211.268</td>
+				<td>105.634</td>
+				<td class="triplet">563.380</td>
+				<td class="triplet">281.690</td>
+				<td class="triplet">140.845</td>
+				<td class="dotted">1267.606</td>
+				<td class="dotted">633.803</td>
+				<td class="dotted">316.901</td>
+			</tr>
+			<tr>
+				<td class="bpm">143 bpm</td>
+				<td>839.161</td>
+				<td>419.580</td>
+				<td>209.790</td>
+				<td>104.895</td>
+				<td class="triplet">559.441</td>
+				<td class="triplet">279.720</td>
+				<td class="triplet">139.860</td>
+				<td class="dotted">1258.741</td>
+				<td class="dotted">629.371</td>
+				<td class="dotted">314.685</td>
+			</tr>
+			<tr>
+				<td class="bpm">144 bpm</td>
+				<td>833.333</td>
+				<td>416.667</td>
+				<td>208.333</td>
+				<td>104.167</td>
+				<td class="triplet">555.556</td>
+				<td class="triplet">277.778</td>
+				<td class="triplet">138.889</td>
+				<td class="dotted">1250.000</td>
+				<td class="dotted">625.000</td>
+				<td class="dotted">312.500</td>
+			</tr>
+			<tr>
+				<td class="bpm">145 bpm</td>
+				<td>827.586</td>
+				<td>413.793</td>
+				<td>206.897</td>
+				<td>103.448</td>
+				<td class="triplet">551.724</td>
+				<td class="triplet">275.862</td>
+				<td class="triplet">137.931</td>
+				<td class="dotted">1241.379</td>
+				<td class="dotted">620.690</td>
+				<td class="dotted">310.345</td>
+			</tr>
+			<tr>
+				<td class="bpm">146 bpm</td>
+				<td>821.918</td>
+				<td>410.959</td>
+				<td>205.479</td>
+				<td>102.740</td>
+				<td class="triplet">547.945</td>
+				<td class="triplet">273.973</td>
+				<td class="triplet">136.986</td>
+				<td class="dotted">1232.877</td>
+				<td class="dotted">616.438</td>
+				<td class="dotted">308.219</td>
+			</tr>
+			<tr>
+				<td class="bpm">147 bpm</td>
+				<td>816.327</td>
+				<td>408.163</td>
+				<td>204.082</td>
+				<td>102.041</td>
+				<td class="triplet">544.218</td>
+				<td class="triplet">272.109</td>
+				<td class="triplet">136.054</td>
+				<td class="dotted">1224.490</td>
+				<td class="dotted">612.245</td>
+				<td class="dotted">306.122</td>
+			</tr>
+			<tr>
+				<td class="bpm">148 bpm</td>
+				<td>810.811</td>
+				<td>405.405</td>
+				<td>202.703</td>
+				<td>101.351</td>
+				<td class="triplet">540.541</td>
+				<td class="triplet">270.270</td>
+				<td class="triplet">135.135</td>
+				<td class="dotted">1216.216</td>
+				<td class="dotted">608.108</td>
+				<td class="dotted">304.054</td>
+			</tr>
+			<tr>
+				<td class="bpm">149 bpm</td>
+				<td>805.369</td>
+				<td>402.685</td>
+				<td>201.342</td>
+				<td>100.671</td>
+				<td class="triplet">536.913</td>
+				<td class="triplet">268.456</td>
+				<td class="triplet">134.228</td>
+				<td class="dotted">1208.054</td>
+				<td class="dotted">604.027</td>
+				<td class="dotted">302.013</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">150 bpm</td>
+				<td>800.000</td>
+				<td>400.000</td>
+				<td>200.000</td>
+				<td>100.000</td>
+				<td class="triplet">533.333</td>
+				<td class="triplet">266.667</td>
+				<td class="triplet">133.333</td>
+				<td class="dotted">1200.000</td>
+				<td class="dotted">600.000</td>
+				<td class="dotted">300.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">151 bpm</td>
+				<td>794.702</td>
+				<td>397.351</td>
+				<td>198.675</td>
+				<td>99.338</td>
+				<td class="triplet">529.801</td>
+				<td class="triplet">264.901</td>
+				<td class="triplet">132.450</td>
+				<td class="dotted">1192.053</td>
+				<td class="dotted">596.026</td>
+				<td class="dotted">298.013</td>
+			</tr>
+			<tr>
+				<td class="bpm">152 bpm</td>
+				<td>789.474</td>
+				<td>394.737</td>
+				<td>197.368</td>
+				<td>98.684</td>
+				<td class="triplet">526.316</td>
+				<td class="triplet">263.158</td>
+				<td class="triplet">131.579</td>
+				<td class="dotted">1184.211</td>
+				<td class="dotted">592.105</td>
+				<td class="dotted">296.053</td>
+			</tr>
+			<tr>
+				<td class="bpm">153 bpm</td>
+				<td>784.314</td>
+				<td>392.157</td>
+				<td>196.078</td>
+				<td>98.039</td>
+				<td class="triplet">522.876</td>
+				<td class="triplet">261.438</td>
+				<td class="triplet">130.719</td>
+				<td class="dotted">1176.471</td>
+				<td class="dotted">588.235</td>
+				<td class="dotted">294.118</td>
+			</tr>
+			<tr>
+				<td class="bpm">154 bpm</td>
+				<td>779.221</td>
+				<td>389.610</td>
+				<td>194.805</td>
+				<td>97.403</td>
+				<td class="triplet">519.481</td>
+				<td class="triplet">259.740</td>
+				<td class="triplet">129.870</td>
+				<td class="dotted">1168.831</td>
+				<td class="dotted">584.416</td>
+				<td class="dotted">292.208</td>
+			</tr>
+			<tr>
+				<td class="bpm">155 bpm</td>
+				<td>774.194</td>
+				<td>387.097</td>
+				<td>193.548</td>
+				<td>96.774</td>
+				<td class="triplet">516.129</td>
+				<td class="triplet">258.065</td>
+				<td class="triplet">129.032</td>
+				<td class="dotted">1161.290</td>
+				<td class="dotted">580.645</td>
+				<td class="dotted">290.323</td>
+			</tr>
+			<tr>
+				<td class="bpm">156 bpm</td>
+				<td>769.231</td>
+				<td>384.615</td>
+				<td>192.308</td>
+				<td>96.154</td>
+				<td class="triplet">512.821</td>
+				<td class="triplet">256.410</td>
+				<td class="triplet">128.205</td>
+				<td class="dotted">1153.846</td>
+				<td class="dotted">576.923</td>
+				<td class="dotted">288.462</td>
+			</tr>
+			<tr>
+				<td class="bpm">157 bpm</td>
+				<td>764.331</td>
+				<td>382.166</td>
+				<td>191.083</td>
+				<td>95.541</td>
+				<td class="triplet">509.554</td>
+				<td class="triplet">254.777</td>
+				<td class="triplet">127.389</td>
+				<td class="dotted">1146.497</td>
+				<td class="dotted">573.248</td>
+				<td class="dotted">286.624</td>
+			</tr>
+			<tr>
+				<td class="bpm">158 bpm</td>
+				<td>759.494</td>
+				<td>379.747</td>
+				<td>189.873</td>
+				<td>94.937</td>
+				<td class="triplet">506.329</td>
+				<td class="triplet">253.165</td>
+				<td class="triplet">126.582</td>
+				<td class="dotted">1139.241</td>
+				<td class="dotted">569.620</td>
+				<td class="dotted">284.810</td>
+			</tr>
+			<tr>
+				<td class="bpm">159 bpm</td>
+				<td>754.717</td>
+				<td>377.358</td>
+				<td>188.679</td>
+				<td>94.340</td>
+				<td class="triplet">503.145</td>
+				<td class="triplet">251.572</td>
+				<td class="triplet">125.786</td>
+				<td class="dotted">1132.075</td>
+				<td class="dotted">566.038</td>
+				<td class="dotted">283.019</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">160 bpm</td>
+				<td>750.000</td>
+				<td>375.000</td>
+				<td>187.500</td>
+				<td>93.750</td>
+				<td class="triplet">500.000</td>
+				<td class="triplet">250.000</td>
+				<td class="triplet">125.000</td>
+				<td class="dotted">1125.000</td>
+				<td class="dotted">562.500</td>
+				<td class="dotted">281.250</td>
+			</tr>
+			<tr>
+				<td class="bpm">161 bpm</td>
+				<td>745.342</td>
+				<td>372.671</td>
+				<td>186.335</td>
+				<td>93.168</td>
+				<td class="triplet">496.894</td>
+				<td class="triplet">248.447</td>
+				<td class="triplet">124.224</td>
+				<td class="dotted">1118.012</td>
+				<td class="dotted">559.006</td>
+				<td class="dotted">279.503</td>
+			</tr>
+			<tr>
+				<td class="bpm">162 bpm</td>
+				<td>740.741</td>
+				<td>370.370</td>
+				<td>185.185</td>
+				<td>92.593</td>
+				<td class="triplet">493.827</td>
+				<td class="triplet">246.914</td>
+				<td class="triplet">123.457</td>
+				<td class="dotted">1111.111</td>
+				<td class="dotted">555.556</td>
+				<td class="dotted">277.778</td>
+			</tr>
+			<tr>
+				<td class="bpm">163 bpm</td>
+				<td>736.196</td>
+				<td>368.098</td>
+				<td>184.049</td>
+				<td>92.025</td>
+				<td class="triplet">490.798</td>
+				<td class="triplet">245.399</td>
+				<td class="triplet">122.699</td>
+				<td class="dotted">1104.294</td>
+				<td class="dotted">552.147</td>
+				<td class="dotted">276.074</td>
+			</tr>
+			<tr>
+				<td class="bpm">164 bpm</td>
+				<td>731.707</td>
+				<td>365.854</td>
+				<td>182.927</td>
+				<td>91.463</td>
+				<td class="triplet">487.805</td>
+				<td class="triplet">243.902</td>
+				<td class="triplet">121.951</td>
+				<td class="dotted">1097.561</td>
+				<td class="dotted">548.780</td>
+				<td class="dotted">274.390</td>
+			</tr>
+			<tr>
+				<td class="bpm">165 bpm</td>
+				<td>727.273</td>
+				<td>363.636</td>
+				<td>181.818</td>
+				<td>90.909</td>
+				<td class="triplet">484.848</td>
+				<td class="triplet">242.424</td>
+				<td class="triplet">121.212</td>
+				<td class="dotted">1090.909</td>
+				<td class="dotted">545.455</td>
+				<td class="dotted">272.727</td>
+			</tr>
+			<tr>
+				<td class="bpm">166 bpm</td>
+				<td>722.892</td>
+				<td>361.446</td>
+				<td>180.723</td>
+				<td>90.361</td>
+				<td class="triplet">481.928</td>
+				<td class="triplet">240.964</td>
+				<td class="triplet">120.482</td>
+				<td class="dotted">1084.337</td>
+				<td class="dotted">542.169</td>
+				<td class="dotted">271.084</td>
+			</tr>
+			<tr>
+				<td class="bpm">167 bpm</td>
+				<td>718.563</td>
+				<td>359.281</td>
+				<td>179.641</td>
+				<td>89.820</td>
+				<td class="triplet">479.042</td>
+				<td class="triplet">239.521</td>
+				<td class="triplet">119.760</td>
+				<td class="dotted">1077.844</td>
+				<td class="dotted">538.922</td>
+				<td class="dotted">269.461</td>
+			</tr>
+			<tr>
+				<td class="bpm">168 bpm</td>
+				<td>714.286</td>
+				<td>357.143</td>
+				<td>178.571</td>
+				<td>89.286</td>
+				<td class="triplet">476.190</td>
+				<td class="triplet">238.095</td>
+				<td class="triplet">119.048</td>
+				<td class="dotted">1071.429</td>
+				<td class="dotted">535.714</td>
+				<td class="dotted">267.857</td>
+			</tr>
+			<tr>
+				<td class="bpm">169 bpm</td>
+				<td>710.059</td>
+				<td>355.030</td>
+				<td>177.515</td>
+				<td>88.757</td>
+				<td class="triplet">473.373</td>
+				<td class="triplet">236.686</td>
+				<td class="triplet">118.343</td>
+				<td class="dotted">1065.089</td>
+				<td class="dotted">532.544</td>
+				<td class="dotted">266.272</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">170 bpm</td>
+				<td>705.882</td>
+				<td>352.941</td>
+				<td>176.471</td>
+				<td>88.235</td>
+				<td class="triplet">470.588</td>
+				<td class="triplet">235.294</td>
+				<td class="triplet">117.647</td>
+				<td class="dotted">1058.824</td>
+				<td class="dotted">529.412</td>
+				<td class="dotted">264.706</td>
+			</tr>
+			<tr>
+				<td class="bpm">171 bpm</td>
+				<td>701.754</td>
+				<td>350.877</td>
+				<td>175.439</td>
+				<td>87.719</td>
+				<td class="triplet">467.836</td>
+				<td class="triplet">233.918</td>
+				<td class="triplet">116.959</td>
+				<td class="dotted">1052.632</td>
+				<td class="dotted">526.316</td>
+				<td class="dotted">263.158</td>
+			</tr>
+			<tr>
+				<td class="bpm">172 bpm</td>
+				<td>697.674</td>
+				<td>348.837</td>
+				<td>174.419</td>
+				<td>87.209</td>
+				<td class="triplet">465.116</td>
+				<td class="triplet">232.558</td>
+				<td class="triplet">116.279</td>
+				<td class="dotted">1046.512</td>
+				<td class="dotted">523.256</td>
+				<td class="dotted">261.628</td>
+			</tr>
+			<tr>
+				<td class="bpm">173 bpm</td>
+				<td>693.642</td>
+				<td>346.821</td>
+				<td>173.410</td>
+				<td>86.705</td>
+				<td class="triplet">462.428</td>
+				<td class="triplet">231.214</td>
+				<td class="triplet">115.607</td>
+				<td class="dotted">1040.462</td>
+				<td class="dotted">520.231</td>
+				<td class="dotted">260.116</td>
+			</tr>
+			<tr>
+				<td class="bpm">174 bpm</td>
+				<td>689.655</td>
+				<td>344.828</td>
+				<td>172.414</td>
+				<td>86.207</td>
+				<td class="triplet">459.770</td>
+				<td class="triplet">229.885</td>
+				<td class="triplet">114.943</td>
+				<td class="dotted">1034.483</td>
+				<td class="dotted">517.241</td>
+				<td class="dotted">258.621</td>
+			</tr>
+			<tr>
+				<td class="bpm">175 bpm</td>
+				<td>685.714</td>
+				<td>342.857</td>
+				<td>171.429</td>
+				<td>85.714</td>
+				<td class="triplet">457.143</td>
+				<td class="triplet">228.571</td>
+				<td class="triplet">114.286</td>
+				<td class="dotted">1028.571</td>
+				<td class="dotted">514.286</td>
+				<td class="dotted">257.143</td>
+			</tr>
+			<tr>
+				<td class="bpm">176 bpm</td>
+				<td>681.818</td>
+				<td>340.909</td>
+				<td>170.455</td>
+				<td>85.227</td>
+				<td class="triplet">454.545</td>
+				<td class="triplet">227.273</td>
+				<td class="triplet">113.636</td>
+				<td class="dotted">1022.727</td>
+				<td class="dotted">511.364</td>
+				<td class="dotted">255.682</td>
+			</tr>
+			<tr>
+				<td class="bpm">177 bpm</td>
+				<td>677.966</td>
+				<td>338.983</td>
+				<td>169.492</td>
+				<td>84.746</td>
+				<td class="triplet">451.977</td>
+				<td class="triplet">225.989</td>
+				<td class="triplet">112.994</td>
+				<td class="dotted">1016.949</td>
+				<td class="dotted">508.475</td>
+				<td class="dotted">254.237</td>
+			</tr>
+			<tr>
+				<td class="bpm">178 bpm</td>
+				<td>674.157</td>
+				<td>337.079</td>
+				<td>168.539</td>
+				<td>84.270</td>
+				<td class="triplet">449.438</td>
+				<td class="triplet">224.719</td>
+				<td class="triplet">112.360</td>
+				<td class="dotted">1011.236</td>
+				<td class="dotted">505.618</td>
+				<td class="dotted">252.809</td>
+			</tr>
+			<tr>
+				<td class="bpm">179 bpm</td>
+				<td>670.391</td>
+				<td>335.196</td>
+				<td>167.598</td>
+				<td>83.799</td>
+				<td class="triplet">446.927</td>
+				<td class="triplet">223.464</td>
+				<td class="triplet">111.732</td>
+				<td class="dotted">1005.587</td>
+				<td class="dotted">502.793</td>
+				<td class="dotted">251.397</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">180 bpm</td>
+				<td>666.667</td>
+				<td>333.333</td>
+				<td>166.667</td>
+				<td>83.333</td>
+				<td class="triplet">444.444</td>
+				<td class="triplet">222.222</td>
+				<td class="triplet">111.111</td>
+				<td class="dotted">1000.000</td>
+				<td class="dotted">500.000</td>
+				<td class="dotted">250.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">181 bpm</td>
+				<td>662.983</td>
+				<td>331.492</td>
+				<td>165.746</td>
+				<td>82.873</td>
+				<td class="triplet">441.989</td>
+				<td class="triplet">220.994</td>
+				<td class="triplet">110.497</td>
+				<td class="dotted">994.475</td>
+				<td class="dotted">497.238</td>
+				<td class="dotted">248.619</td>
+			</tr>
+			<tr>
+				<td class="bpm">182 bpm</td>
+				<td>659.341</td>
+				<td>329.670</td>
+				<td>164.835</td>
+				<td>82.418</td>
+				<td class="triplet">439.560</td>
+				<td class="triplet">219.780</td>
+				<td class="triplet">109.890</td>
+				<td class="dotted">989.011</td>
+				<td class="dotted">494.505</td>
+				<td class="dotted">247.253</td>
+			</tr>
+			<tr>
+				<td class="bpm">183 bpm</td>
+				<td>655.738</td>
+				<td>327.869</td>
+				<td>163.934</td>
+				<td>81.967</td>
+				<td class="triplet">437.158</td>
+				<td class="triplet">218.579</td>
+				<td class="triplet">109.290</td>
+				<td class="dotted">983.607</td>
+				<td class="dotted">491.803</td>
+				<td class="dotted">245.902</td>
+			</tr>
+			<tr>
+				<td class="bpm">184 bpm</td>
+				<td>652.174</td>
+				<td>326.087</td>
+				<td>163.043</td>
+				<td>81.522</td>
+				<td class="triplet">434.783</td>
+				<td class="triplet">217.391</td>
+				<td class="triplet">108.696</td>
+				<td class="dotted">978.261</td>
+				<td class="dotted">489.130</td>
+				<td class="dotted">244.565</td>
+			</tr>
+			<tr>
+				<td class="bpm">185 bpm</td>
+				<td>648.649</td>
+				<td>324.324</td>
+				<td>162.162</td>
+				<td>81.081</td>
+				<td class="triplet">432.432</td>
+				<td class="triplet">216.216</td>
+				<td class="triplet">108.108</td>
+				<td class="dotted">972.973</td>
+				<td class="dotted">486.486</td>
+				<td class="dotted">243.243</td>
+			</tr>
+			<tr>
+				<td class="bpm">186 bpm</td>
+				<td>645.161</td>
+				<td>322.581</td>
+				<td>161.290</td>
+				<td>80.645</td>
+				<td class="triplet">430.108</td>
+				<td class="triplet">215.054</td>
+				<td class="triplet">107.527</td>
+				<td class="dotted">967.742</td>
+				<td class="dotted">483.871</td>
+				<td class="dotted">241.935</td>
+			</tr>
+			<tr>
+				<td class="bpm">187 bpm</td>
+				<td>641.711</td>
+				<td>320.856</td>
+				<td>160.428</td>
+				<td>80.214</td>
+				<td class="triplet">427.807</td>
+				<td class="triplet">213.904</td>
+				<td class="triplet">106.952</td>
+				<td class="dotted">962.567</td>
+				<td class="dotted">481.283</td>
+				<td class="dotted">240.642</td>
+			</tr>
+			<tr>
+				<td class="bpm">188 bpm</td>
+				<td>638.298</td>
+				<td>319.149</td>
+				<td>159.574</td>
+				<td>79.787</td>
+				<td class="triplet">425.532</td>
+				<td class="triplet">212.766</td>
+				<td class="triplet">106.383</td>
+				<td class="dotted">957.447</td>
+				<td class="dotted">478.723</td>
+				<td class="dotted">239.362</td>
+			</tr>
+			<tr>
+				<td class="bpm">189 bpm</td>
+				<td>634.921</td>
+				<td>317.460</td>
+				<td>158.730</td>
+				<td>79.365</td>
+				<td class="triplet">423.280</td>
+				<td class="triplet">211.640</td>
+				<td class="triplet">105.820</td>
+				<td class="dotted">952.381</td>
+				<td class="dotted">476.190</td>
+				<td class="dotted">238.095</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">190 bpm</td>
+				<td>631.579</td>
+				<td>315.789</td>
+				<td>157.895</td>
+				<td>78.947</td>
+				<td class="triplet">421.053</td>
+				<td class="triplet">210.526</td>
+				<td class="triplet">105.263</td>
+				<td class="dotted">947.368</td>
+				<td class="dotted">473.684</td>
+				<td class="dotted">236.842</td>
+			</tr>
+			<tr>
+				<td class="bpm">191 bpm</td>
+				<td>628.272</td>
+				<td>314.136</td>
+				<td>157.068</td>
+				<td>78.534</td>
+				<td class="triplet">418.848</td>
+				<td class="triplet">209.424</td>
+				<td class="triplet">104.712</td>
+				<td class="dotted">942.408</td>
+				<td class="dotted">471.204</td>
+				<td class="dotted">235.602</td>
+			</tr>
+			<tr>
+				<td class="bpm">192 bpm</td>
+				<td>625.000</td>
+				<td>312.500</td>
+				<td>156.250</td>
+				<td>78.125</td>
+				<td class="triplet">416.667</td>
+				<td class="triplet">208.333</td>
+				<td class="triplet">104.167</td>
+				<td class="dotted">937.500</td>
+				<td class="dotted">468.750</td>
+				<td class="dotted">234.375</td>
+			</tr>
+			<tr>
+				<td class="bpm">193 bpm</td>
+				<td>621.762</td>
+				<td>310.881</td>
+				<td>155.440</td>
+				<td>77.720</td>
+				<td class="triplet">414.508</td>
+				<td class="triplet">207.254</td>
+				<td class="triplet">103.627</td>
+				<td class="dotted">932.642</td>
+				<td class="dotted">466.321</td>
+				<td class="dotted">233.161</td>
+			</tr>
+			<tr>
+				<td class="bpm">194 bpm</td>
+				<td>618.557</td>
+				<td>309.278</td>
+				<td>154.639</td>
+				<td>77.320</td>
+				<td class="triplet">412.371</td>
+				<td class="triplet">206.186</td>
+				<td class="triplet">103.093</td>
+				<td class="dotted">927.835</td>
+				<td class="dotted">463.918</td>
+				<td class="dotted">231.959</td>
+			</tr>
+			<tr>
+				<td class="bpm">195 bpm</td>
+				<td>615.385</td>
+				<td>307.692</td>
+				<td>153.846</td>
+				<td>76.923</td>
+				<td class="triplet">410.256</td>
+				<td class="triplet">205.128</td>
+				<td class="triplet">102.564</td>
+				<td class="dotted">923.077</td>
+				<td class="dotted">461.538</td>
+				<td class="dotted">230.769</td>
+			</tr>
+			<tr>
+				<td class="bpm">196 bpm</td>
+				<td>612.245</td>
+				<td>306.122</td>
+				<td>153.061</td>
+				<td>76.531</td>
+				<td class="triplet">408.163</td>
+				<td class="triplet">204.082</td>
+				<td class="triplet">102.041</td>
+				<td class="dotted">918.367</td>
+				<td class="dotted">459.184</td>
+				<td class="dotted">229.592</td>
+			</tr>
+			<tr>
+				<td class="bpm">197 bpm</td>
+				<td>609.137</td>
+				<td>304.569</td>
+				<td>152.284</td>
+				<td>76.142</td>
+				<td class="triplet">406.091</td>
+				<td class="triplet">203.046</td>
+				<td class="triplet">101.523</td>
+				<td class="dotted">913.706</td>
+				<td class="dotted">456.853</td>
+				<td class="dotted">228.426</td>
+			</tr>
+			<tr>
+				<td class="bpm">198 bpm</td>
+				<td>606.061</td>
+				<td>303.030</td>
+				<td>151.515</td>
+				<td>75.758</td>
+				<td class="triplet">404.040</td>
+				<td class="triplet">202.020</td>
+				<td class="triplet">101.010</td>
+				<td class="dotted">909.091</td>
+				<td class="dotted">454.545</td>
+				<td class="dotted">227.273</td>
+			</tr>
+			<tr>
+				<td class="bpm">199 bpm</td>
+				<td>603.015</td>
+				<td>301.508</td>
+				<td>150.754</td>
+				<td>75.377</td>
+				<td class="triplet">402.010</td>
+				<td class="triplet">201.005</td>
+				<td class="triplet">100.503</td>
+				<td class="dotted">904.523</td>
+				<td class="dotted">452.261</td>
+				<td class="dotted">226.131</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">200 bpm</td>
+				<td>600.000</td>
+				<td>300.000</td>
+				<td>150.000</td>
+				<td>75.000</td>
+				<td class="triplet">400.000</td>
+				<td class="triplet">200.000</td>
+				<td class="triplet">100.000</td>
+				<td class="dotted">900.000</td>
+				<td class="dotted">450.000</td>
+				<td class="dotted">225.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">201 bpm</td>
+				<td>597.015</td>
+				<td>298.507</td>
+				<td>149.254</td>
+				<td>74.627</td>
+				<td class="triplet">398.010</td>
+				<td class="triplet">199.005</td>
+				<td class="triplet">99.502</td>
+				<td class="dotted">895.522</td>
+				<td class="dotted">447.761</td>
+				<td class="dotted">223.881</td>
+			</tr>
+			<tr>
+				<td class="bpm">202 bpm</td>
+				<td>594.059</td>
+				<td>297.030</td>
+				<td>148.515</td>
+				<td>74.257</td>
+				<td class="triplet">396.040</td>
+				<td class="triplet">198.020</td>
+				<td class="triplet">99.010</td>
+				<td class="dotted">891.089</td>
+				<td class="dotted">445.545</td>
+				<td class="dotted">222.772</td>
+			</tr>
+			<tr>
+				<td class="bpm">203 bpm</td>
+				<td>591.133</td>
+				<td>295.567</td>
+				<td>147.783</td>
+				<td>73.892</td>
+				<td class="triplet">394.089</td>
+				<td class="triplet">197.044</td>
+				<td class="triplet">98.522</td>
+				<td class="dotted">886.700</td>
+				<td class="dotted">443.350</td>
+				<td class="dotted">221.675</td>
+			</tr>
+			<tr>
+				<td class="bpm">204 bpm</td>
+				<td>588.235</td>
+				<td>294.118</td>
+				<td>147.059</td>
+				<td>73.529</td>
+				<td class="triplet">392.157</td>
+				<td class="triplet">196.078</td>
+				<td class="triplet">98.039</td>
+				<td class="dotted">882.353</td>
+				<td class="dotted">441.176</td>
+				<td class="dotted">220.588</td>
+			</tr>
+			<tr>
+				<td class="bpm">205 bpm</td>
+				<td>585.366</td>
+				<td>292.683</td>
+				<td>146.341</td>
+				<td>73.171</td>
+				<td class="triplet">390.244</td>
+				<td class="triplet">195.122</td>
+				<td class="triplet">97.561</td>
+				<td class="dotted">878.049</td>
+				<td class="dotted">439.024</td>
+				<td class="dotted">219.512</td>
+			</tr>
+			<tr>
+				<td class="bpm">206 bpm</td>
+				<td>582.524</td>
+				<td>291.262</td>
+				<td>145.631</td>
+				<td>72.816</td>
+				<td class="triplet">388.350</td>
+				<td class="triplet">194.175</td>
+				<td class="triplet">97.087</td>
+				<td class="dotted">873.786</td>
+				<td class="dotted">436.893</td>
+				<td class="dotted">218.447</td>
+			</tr>
+			<tr>
+				<td class="bpm">207 bpm</td>
+				<td>579.710</td>
+				<td>289.855</td>
+				<td>144.928</td>
+				<td>72.464</td>
+				<td class="triplet">386.473</td>
+				<td class="triplet">193.237</td>
+				<td class="triplet">96.618</td>
+				<td class="dotted">869.565</td>
+				<td class="dotted">434.783</td>
+				<td class="dotted">217.391</td>
+			</tr>
+			<tr>
+				<td class="bpm">208 bpm</td>
+				<td>576.923</td>
+				<td>288.462</td>
+				<td>144.231</td>
+				<td>72.115</td>
+				<td class="triplet">384.615</td>
+				<td class="triplet">192.308</td>
+				<td class="triplet">96.154</td>
+				<td class="dotted">865.385</td>
+				<td class="dotted">432.692</td>
+				<td class="dotted">216.346</td>
+			</tr>
+			<tr>
+				<td class="bpm">209 bpm</td>
+				<td>574.163</td>
+				<td>287.081</td>
+				<td>143.541</td>
+				<td>71.770</td>
+				<td class="triplet">382.775</td>
+				<td class="triplet">191.388</td>
+				<td class="triplet">95.694</td>
+				<td class="dotted">861.244</td>
+				<td class="dotted">430.622</td>
+				<td class="dotted">215.311</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">210 bpm</td>
+				<td>571.429</td>
+				<td>285.714</td>
+				<td>142.857</td>
+				<td>71.429</td>
+				<td class="triplet">380.952</td>
+				<td class="triplet">190.476</td>
+				<td class="triplet">95.238</td>
+				<td class="dotted">857.143</td>
+				<td class="dotted">428.571</td>
+				<td class="dotted">214.286</td>
+			</tr>
+			<tr>
+				<td class="bpm">211 bpm</td>
+				<td>568.720</td>
+				<td>284.360</td>
+				<td>142.180</td>
+				<td>71.090</td>
+				<td class="triplet">379.147</td>
+				<td class="triplet">189.573</td>
+				<td class="triplet">94.787</td>
+				<td class="dotted">853.081</td>
+				<td class="dotted">426.540</td>
+				<td class="dotted">213.270</td>
+			</tr>
+			<tr>
+				<td class="bpm">212 bpm</td>
+				<td>566.038</td>
+				<td>283.019</td>
+				<td>141.509</td>
+				<td>70.755</td>
+				<td class="triplet">377.358</td>
+				<td class="triplet">188.679</td>
+				<td class="triplet">94.340</td>
+				<td class="dotted">849.057</td>
+				<td class="dotted">424.528</td>
+				<td class="dotted">212.264</td>
+			</tr>
+			<tr>
+				<td class="bpm">213 bpm</td>
+				<td>563.380</td>
+				<td>281.690</td>
+				<td>140.845</td>
+				<td>70.423</td>
+				<td class="triplet">375.587</td>
+				<td class="triplet">187.793</td>
+				<td class="triplet">93.897</td>
+				<td class="dotted">845.070</td>
+				<td class="dotted">422.535</td>
+				<td class="dotted">211.268</td>
+			</tr>
+			<tr>
+				<td class="bpm">214 bpm</td>
+				<td>560.748</td>
+				<td>280.374</td>
+				<td>140.187</td>
+				<td>70.093</td>
+				<td class="triplet">373.832</td>
+				<td class="triplet">186.916</td>
+				<td class="triplet">93.458</td>
+				<td class="dotted">841.121</td>
+				<td class="dotted">420.561</td>
+				<td class="dotted">210.280</td>
+			</tr>
+			<tr>
+				<td class="bpm">215 bpm</td>
+				<td>558.140</td>
+				<td>279.070</td>
+				<td>139.535</td>
+				<td>69.767</td>
+				<td class="triplet">372.093</td>
+				<td class="triplet">186.047</td>
+				<td class="triplet">93.023</td>
+				<td class="dotted">837.209</td>
+				<td class="dotted">418.605</td>
+				<td class="dotted">209.302</td>
+			</tr>
+			<tr>
+				<td class="bpm">216 bpm</td>
+				<td>555.556</td>
+				<td>277.778</td>
+				<td>138.889</td>
+				<td>69.444</td>
+				<td class="triplet">370.370</td>
+				<td class="triplet">185.185</td>
+				<td class="triplet">92.593</td>
+				<td class="dotted">833.333</td>
+				<td class="dotted">416.667</td>
+				<td class="dotted">208.333</td>
+			</tr>
+			<tr>
+				<td class="bpm">217 bpm</td>
+				<td>552.995</td>
+				<td>276.498</td>
+				<td>138.249</td>
+				<td>69.124</td>
+				<td class="triplet">368.664</td>
+				<td class="triplet">184.332</td>
+				<td class="triplet">92.166</td>
+				<td class="dotted">829.493</td>
+				<td class="dotted">414.747</td>
+				<td class="dotted">207.373</td>
+			</tr>
+			<tr>
+				<td class="bpm">218 bpm</td>
+				<td>550.459</td>
+				<td>275.229</td>
+				<td>137.615</td>
+				<td>68.807</td>
+				<td class="triplet">366.972</td>
+				<td class="triplet">183.486</td>
+				<td class="triplet">91.743</td>
+				<td class="dotted">825.688</td>
+				<td class="dotted">412.844</td>
+				<td class="dotted">206.422</td>
+			</tr>
+			<tr>
+				<td class="bpm">219 bpm</td>
+				<td>547.945</td>
+				<td>273.973</td>
+				<td>136.986</td>
+				<td>68.493</td>
+				<td class="triplet">365.297</td>
+				<td class="triplet">182.648</td>
+				<td class="triplet">91.324</td>
+				<td class="dotted">821.918</td>
+				<td class="dotted">410.959</td>
+				<td class="dotted">205.479</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">220 bpm</td>
+				<td>545.455</td>
+				<td>272.727</td>
+				<td>136.364</td>
+				<td>68.182</td>
+				<td class="triplet">363.636</td>
+				<td class="triplet">181.818</td>
+				<td class="triplet">90.909</td>
+				<td class="dotted">818.182</td>
+				<td class="dotted">409.091</td>
+				<td class="dotted">204.545</td>
+			</tr>
+			<tr>
+				<td class="bpm">221 bpm</td>
+				<td>542.986</td>
+				<td>271.493</td>
+				<td>135.747</td>
+				<td>67.873</td>
+				<td class="triplet">361.991</td>
+				<td class="triplet">180.995</td>
+				<td class="triplet">90.498</td>
+				<td class="dotted">814.480</td>
+				<td class="dotted">407.240</td>
+				<td class="dotted">203.620</td>
+			</tr>
+			<tr>
+				<td class="bpm">222 bpm</td>
+				<td>540.541</td>
+				<td>270.270</td>
+				<td>135.135</td>
+				<td>67.568</td>
+				<td class="triplet">360.360</td>
+				<td class="triplet">180.180</td>
+				<td class="triplet">90.090</td>
+				<td class="dotted">810.811</td>
+				<td class="dotted">405.405</td>
+				<td class="dotted">202.703</td>
+			</tr>
+			<tr>
+				<td class="bpm">223 bpm</td>
+				<td>538.117</td>
+				<td>269.058</td>
+				<td>134.529</td>
+				<td>67.265</td>
+				<td class="triplet">358.744</td>
+				<td class="triplet">179.372</td>
+				<td class="triplet">89.686</td>
+				<td class="dotted">807.175</td>
+				<td class="dotted">403.587</td>
+				<td class="dotted">201.794</td>
+			</tr>
+			<tr>
+				<td class="bpm">224 bpm</td>
+				<td>535.714</td>
+				<td>267.857</td>
+				<td>133.929</td>
+				<td>66.964</td>
+				<td class="triplet">357.143</td>
+				<td class="triplet">178.571</td>
+				<td class="triplet">89.286</td>
+				<td class="dotted">803.571</td>
+				<td class="dotted">401.786</td>
+				<td class="dotted">200.893</td>
+			</tr>
+			<tr>
+				<td class="bpm">225 bpm</td>
+				<td>533.333</td>
+				<td>266.667</td>
+				<td>133.333</td>
+				<td>66.667</td>
+				<td class="triplet">355.556</td>
+				<td class="triplet">177.778</td>
+				<td class="triplet">88.889</td>
+				<td class="dotted">800.000</td>
+				<td class="dotted">400.000</td>
+				<td class="dotted">200.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">226 bpm</td>
+				<td>530.973</td>
+				<td>265.487</td>
+				<td>132.743</td>
+				<td>66.372</td>
+				<td class="triplet">353.982</td>
+				<td class="triplet">176.991</td>
+				<td class="triplet">88.496</td>
+				<td class="dotted">796.460</td>
+				<td class="dotted">398.230</td>
+				<td class="dotted">199.115</td>
+			</tr>
+			<tr>
+				<td class="bpm">227 bpm</td>
+				<td>528.634</td>
+				<td>264.317</td>
+				<td>132.159</td>
+				<td>66.079</td>
+				<td class="triplet">352.423</td>
+				<td class="triplet">176.211</td>
+				<td class="triplet">88.106</td>
+				<td class="dotted">792.952</td>
+				<td class="dotted">396.476</td>
+				<td class="dotted">198.238</td>
+			</tr>
+			<tr>
+				<td class="bpm">228 bpm</td>
+				<td>526.316</td>
+				<td>263.158</td>
+				<td>131.579</td>
+				<td>65.789</td>
+				<td class="triplet">350.877</td>
+				<td class="triplet">175.439</td>
+				<td class="triplet">87.719</td>
+				<td class="dotted">789.474</td>
+				<td class="dotted">394.737</td>
+				<td class="dotted">197.368</td>
+			</tr>
+			<tr>
+				<td class="bpm">229 bpm</td>
+				<td>524.017</td>
+				<td>262.009</td>
+				<td>131.004</td>
+				<td>65.502</td>
+				<td class="triplet">349.345</td>
+				<td class="triplet">174.672</td>
+				<td class="triplet">87.336</td>
+				<td class="dotted">786.026</td>
+				<td class="dotted">393.013</td>
+				<td class="dotted">196.507</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">230 bpm</td>
+				<td>521.739</td>
+				<td>260.870</td>
+				<td>130.435</td>
+				<td>65.217</td>
+				<td class="triplet">347.826</td>
+				<td class="triplet">173.913</td>
+				<td class="triplet">86.957</td>
+				<td class="dotted">782.609</td>
+				<td class="dotted">391.304</td>
+				<td class="dotted">195.652</td>
+			</tr>
+			<tr>
+				<td class="bpm">231 bpm</td>
+				<td>519.481</td>
+				<td>259.740</td>
+				<td>129.870</td>
+				<td>64.935</td>
+				<td class="triplet">346.320</td>
+				<td class="triplet">173.160</td>
+				<td class="triplet">86.580</td>
+				<td class="dotted">779.221</td>
+				<td class="dotted">389.610</td>
+				<td class="dotted">194.805</td>
+			</tr>
+			<tr>
+				<td class="bpm">232 bpm</td>
+				<td>517.241</td>
+				<td>258.621</td>
+				<td>129.310</td>
+				<td>64.655</td>
+				<td class="triplet">344.828</td>
+				<td class="triplet">172.414</td>
+				<td class="triplet">86.207</td>
+				<td class="dotted">775.862</td>
+				<td class="dotted">387.931</td>
+				<td class="dotted">193.966</td>
+			</tr>
+			<tr>
+				<td class="bpm">233 bpm</td>
+				<td>515.021</td>
+				<td>257.511</td>
+				<td>128.755</td>
+				<td>64.378</td>
+				<td class="triplet">343.348</td>
+				<td class="triplet">171.674</td>
+				<td class="triplet">85.837</td>
+				<td class="dotted">772.532</td>
+				<td class="dotted">386.266</td>
+				<td class="dotted">193.133</td>
+			</tr>
+			<tr>
+				<td class="bpm">234 bpm</td>
+				<td>512.821</td>
+				<td>256.410</td>
+				<td>128.205</td>
+				<td>64.103</td>
+				<td class="triplet">341.880</td>
+				<td class="triplet">170.940</td>
+				<td class="triplet">85.470</td>
+				<td class="dotted">769.231</td>
+				<td class="dotted">384.615</td>
+				<td class="dotted">192.308</td>
+			</tr>
+			<tr>
+				<td class="bpm">235 bpm</td>
+				<td>510.638</td>
+				<td>255.319</td>
+				<td>127.660</td>
+				<td>63.830</td>
+				<td class="triplet">340.426</td>
+				<td class="triplet">170.213</td>
+				<td class="triplet">85.106</td>
+				<td class="dotted">765.957</td>
+				<td class="dotted">382.979</td>
+				<td class="dotted">191.489</td>
+			</tr>
+			<tr>
+				<td class="bpm">236 bpm</td>
+				<td>508.475</td>
+				<td>254.237</td>
+				<td>127.119</td>
+				<td>63.559</td>
+				<td class="triplet">338.983</td>
+				<td class="triplet">169.492</td>
+				<td class="triplet">84.746</td>
+				<td class="dotted">762.712</td>
+				<td class="dotted">381.356</td>
+				<td class="dotted">190.678</td>
+			</tr>
+			<tr>
+				<td class="bpm">237 bpm</td>
+				<td>506.329</td>
+				<td>253.165</td>
+				<td>126.582</td>
+				<td>63.291</td>
+				<td class="triplet">337.553</td>
+				<td class="triplet">168.776</td>
+				<td class="triplet">84.388</td>
+				<td class="dotted">759.494</td>
+				<td class="dotted">379.747</td>
+				<td class="dotted">189.873</td>
+			</tr>
+			<tr>
+				<td class="bpm">238 bpm</td>
+				<td>504.202</td>
+				<td>252.101</td>
+				<td>126.050</td>
+				<td>63.025</td>
+				<td class="triplet">336.134</td>
+				<td class="triplet">168.067</td>
+				<td class="triplet">84.034</td>
+				<td class="dotted">756.303</td>
+				<td class="dotted">378.151</td>
+				<td class="dotted">189.076</td>
+			</tr>
+			<tr>
+				<td class="bpm">239 bpm</td>
+				<td>502.092</td>
+				<td>251.046</td>
+				<td>125.523</td>
+				<td>62.762</td>
+				<td class="triplet">334.728</td>
+				<td class="triplet">167.364</td>
+				<td class="triplet">83.682</td>
+				<td class="dotted">753.138</td>
+				<td class="dotted">376.569</td>
+				<td class="dotted">188.285</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">240 bpm</td>
+				<td>500.000</td>
+				<td>250.000</td>
+				<td>125.000</td>
+				<td>62.500</td>
+				<td class="triplet">333.333</td>
+				<td class="triplet">166.667</td>
+				<td class="triplet">83.333</td>
+				<td class="dotted">750.000</td>
+				<td class="dotted">375.000</td>
+				<td class="dotted">187.500</td>
+			</tr>
+			<tr>
+				<td class="bpm">241 bpm</td>
+				<td>497.925</td>
+				<td>248.963</td>
+				<td>124.481</td>
+				<td>62.241</td>
+				<td class="triplet">331.950</td>
+				<td class="triplet">165.975</td>
+				<td class="triplet">82.988</td>
+				<td class="dotted">746.888</td>
+				<td class="dotted">373.444</td>
+				<td class="dotted">186.722</td>
+			</tr>
+			<tr>
+				<td class="bpm">242 bpm</td>
+				<td>495.868</td>
+				<td>247.934</td>
+				<td>123.967</td>
+				<td>61.983</td>
+				<td class="triplet">330.579</td>
+				<td class="triplet">165.289</td>
+				<td class="triplet">82.645</td>
+				<td class="dotted">743.802</td>
+				<td class="dotted">371.901</td>
+				<td class="dotted">185.950</td>
+			</tr>
+			<tr>
+				<td class="bpm">243 bpm</td>
+				<td>493.827</td>
+				<td>246.914</td>
+				<td>123.457</td>
+				<td>61.728</td>
+				<td class="triplet">329.218</td>
+				<td class="triplet">164.609</td>
+				<td class="triplet">82.305</td>
+				<td class="dotted">740.741</td>
+				<td class="dotted">370.370</td>
+				<td class="dotted">185.185</td>
+			</tr>
+			<tr>
+				<td class="bpm">244 bpm</td>
+				<td>491.803</td>
+				<td>245.902</td>
+				<td>122.951</td>
+				<td>61.475</td>
+				<td class="triplet">327.869</td>
+				<td class="triplet">163.934</td>
+				<td class="triplet">81.967</td>
+				<td class="dotted">737.705</td>
+				<td class="dotted">368.852</td>
+				<td class="dotted">184.426</td>
+			</tr>
+			<tr>
+				<td class="bpm">245 bpm</td>
+				<td>489.796</td>
+				<td>244.898</td>
+				<td>122.449</td>
+				<td>61.224</td>
+				<td class="triplet">326.531</td>
+				<td class="triplet">163.265</td>
+				<td class="triplet">81.633</td>
+				<td class="dotted">734.694</td>
+				<td class="dotted">367.347</td>
+				<td class="dotted">183.673</td>
+			</tr>
+			<tr>
+				<td class="bpm">246 bpm</td>
+				<td>487.805</td>
+				<td>243.902</td>
+				<td>121.951</td>
+				<td>60.976</td>
+				<td class="triplet">325.203</td>
+				<td class="triplet">162.602</td>
+				<td class="triplet">81.301</td>
+				<td class="dotted">731.707</td>
+				<td class="dotted">365.854</td>
+				<td class="dotted">182.927</td>
+			</tr>
+			<tr>
+				<td class="bpm">247 bpm</td>
+				<td>485.830</td>
+				<td>242.915</td>
+				<td>121.457</td>
+				<td>60.729</td>
+				<td class="triplet">323.887</td>
+				<td class="triplet">161.943</td>
+				<td class="triplet">80.972</td>
+				<td class="dotted">728.745</td>
+				<td class="dotted">364.372</td>
+				<td class="dotted">182.186</td>
+			</tr>
+			<tr>
+				<td class="bpm">248 bpm</td>
+				<td>483.871</td>
+				<td>241.935</td>
+				<td>120.968</td>
+				<td>60.484</td>
+				<td class="triplet">322.581</td>
+				<td class="triplet">161.290</td>
+				<td class="triplet">80.645</td>
+				<td class="dotted">725.806</td>
+				<td class="dotted">362.903</td>
+				<td class="dotted">181.452</td>
+			</tr>
+			<tr>
+				<td class="bpm">249 bpm</td>
+				<td>481.928</td>
+				<td>240.964</td>
+				<td>120.482</td>
+				<td>60.241</td>
+				<td class="triplet">321.285</td>
+				<td class="triplet">160.643</td>
+				<td class="triplet">80.321</td>
+				<td class="dotted">722.892</td>
+				<td class="dotted">361.446</td>
+				<td class="dotted">180.723</td>
+			</tr>
+			<tr class="headrow">
+				<td>BPM</td>
+				<td>1/2</td>
+				<td>1/4</td>
+				<td>1/8</td>
+				<td>1/16</td>
+				<td class="triplet">1/2T</td>
+				<td class="triplet">1/4T</td>
+				<td class="triplet">1/8T</td>
+				<td class="dotted">1/2D</td>
+				<td class="dotted">1/4D</td>
+				<td class="dotted">1/8D</td>
+			</tr>
+			<tr>
+				<td class="bpm">250 bpm</td>
+				<td>480.000</td>
+				<td>240.000</td>
+				<td>120.000</td>
+				<td>60.000</td>
+				<td class="triplet">320.000</td>
+				<td class="triplet">160.000</td>
+				<td class="triplet">80.000</td>
+				<td class="dotted">720.000</td>
+				<td class="dotted">360.000</td>
+				<td class="dotted">180.000</td>
+			</tr>
+			<tr>
+				<td class="bpm">251 bpm</td>
+				<td>478.088</td>
+				<td>239.044</td>
+				<td>119.522</td>
+				<td>59.761</td>
+				<td class="triplet">318.725</td>
+				<td class="triplet">159.363</td>
+				<td class="triplet">79.681</td>
+				<td class="dotted">717.131</td>
+				<td class="dotted">358.566</td>
+				<td class="dotted">179.283</td>
+			</tr>
+			<tr>
+				<td class="bpm">252 bpm</td>
+				<td>476.190</td>
+				<td>238.095</td>
+				<td>119.048</td>
+				<td>59.524</td>
+				<td class="triplet">317.460</td>
+				<td class="triplet">158.730</td>
+				<td class="triplet">79.365</td>
+				<td class="dotted">714.286</td>
+				<td class="dotted">357.143</td>
+				<td class="dotted">178.571</td>
+			</tr>
+			<tr>
+				<td class="bpm">253 bpm</td>
+				<td>474.308</td>
+				<td>237.154</td>
+				<td>118.577</td>
+				<td>59.289</td>
+				<td class="triplet">316.206</td>
+				<td class="triplet">158.103</td>
+				<td class="triplet">79.051</td>
+				<td class="dotted">711.462</td>
+				<td class="dotted">355.731</td>
+				<td class="dotted">177.866</td>
+			</tr>
+			<tr>
+				<td class="bpm">254 bpm</td>
+				<td>472.441</td>
+				<td>236.220</td>
+				<td>118.110</td>
+				<td>59.055</td>
+				<td class="triplet">314.961</td>
+				<td class="triplet">157.480</td>
+				<td class="triplet">78.740</td>
+				<td class="dotted">708.661</td>
+				<td class="dotted">354.331</td>
+				<td class="dotted">177.165</td>
+			</tr>
+			<tr>
+				<td class="bpm">255 bpm</td>
+				<td>470.588</td>
+				<td>235.294</td>
+				<td>117.647</td>
+				<td>58.824</td>
+				<td class="triplet">313.725</td>
+				<td class="triplet">156.863</td>
+				<td class="triplet">78.431</td>
+				<td class="dotted">705.882</td>
+				<td class="dotted">352.941</td>
+				<td class="dotted">176.471</td>
+			</tr>
+			<tr>
+				<td class="bpm">256 bpm</td>
+				<td>468.750</td>
+				<td>234.375</td>
+				<td>117.188</td>
+				<td>58.594</td>
+				<td class="triplet">312.500</td>
+				<td class="triplet">156.250</td>
+				<td class="triplet">78.125</td>
+				<td class="dotted">703.125</td>
+				<td class="dotted">351.562</td>
+				<td class="dotted">175.781</td>
+			</tr>
+			<tr>
+				<td class="bpm">257 bpm</td>
+				<td>466.926</td>
+				<td>233.463</td>
+				<td>116.732</td>
+				<td>58.366</td>
+				<td class="triplet">311.284</td>
+				<td class="triplet">155.642</td>
+				<td class="triplet">77.821</td>
+				<td class="dotted">700.389</td>
+				<td class="dotted">350.195</td>
+				<td class="dotted">175.097</td>
+			</tr>
+			<tr>
+				<td class="bpm">258 bpm</td>
+				<td>465.116</td>
+				<td>232.558</td>
+				<td>116.279</td>
+				<td>58.140</td>
+				<td class="triplet">310.078</td>
+				<td class="triplet">155.039</td>
+				<td class="triplet">77.519</td>
+				<td class="dotted">697.674</td>
+				<td class="dotted">348.837</td>
+				<td class="dotted">174.419</td>
+			</tr>
+			<tr>
+				<td class="bpm">259 bpm</td>
+				<td>463.320</td>
+				<td>231.660</td>
+				<td>115.830</td>
+				<td>57.915</td>
+				<td class="triplet">308.880</td>
+				<td class="triplet">154.440</td>
+				<td class="triplet">77.220</td>
+				<td class="dotted">694.981</td>
+				<td class="dotted">347.490</td>
+				<td class="dotted">173.745</td>
+			</tr>
+		</table>
+	</body>
+</html>
